@@ -175,3 +175,25 @@ body {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 600px) {
+    body {
+      flex-direction: column;
+    }
+  
+    .wrapper {
+      grid-template-columns: 1fr;
+    }
+  
+    .img_section {
+      display: none;
+    }
+  
+    .content_section {
+      order: 1;
+    }
+  
+    .default_info {
+      order: 2;
+    }
+  }
